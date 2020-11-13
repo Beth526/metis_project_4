@@ -21,7 +21,7 @@ I tried topic modeling of the gene/gene product tokens with LSA, LDA and NMF, an
 
 ## [*Word2Vec Model and Document Centroid Notebook*](https://github.com/Beth526/metis_project_4/blob/main/Project4_Word2Vec.ipynb)
 
-Next, I tried making a small Word2Vec model from the abstract corpus. It was a CBOW model with a window size of 5 and a vector size of 30. This small model was only 25Mb in size but I think it had captured some really nice relationships between biological terms because the corpus was so specific:
+Next, I tried making a small Word2Vec model from the abstract corpus. It was a CBOW model with a window size of 5 and a vector size of 30. This small model was only 25Mb in size but I think it had captured some really nice relationships between biological terms because the corpus was so specific. It is also available under Pickled Files.
 
 ![Receptor Ligand Pair Embeddings](https://github.com/Beth526/metis_project_4/blob/main/receptor_ligand_embeddings.jpg)
 
@@ -31,3 +31,4 @@ I used word vectors to calculate a centroid for each document's gene/gene produc
 ### Word2Vec Centroid tSNE
 ![Word2Vec Centroid tSNE](https://github.com/Beth526/metis_project_4/blob/main/w2v_cluster.jpg)
 
+## [*Final PDF Presentation*](https://github.com/Beth526/metis_project_4/blob/main/Metis%20Project%204.pdf)
