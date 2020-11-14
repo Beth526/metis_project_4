@@ -27,7 +27,7 @@ Next, I tried making a small Word2Vec model from the abstract corpus. It was a C
 
 ![Kinase Cascade Pair Embeddings](https://github.com/Beth526/metis_project_4/blob/main/kinase_embeddings.jpg)
 
-I used word vectors to calculate a centroid for each document's gene/gene product tokens (normalized sum of the gene/gene product token word vectors). I clustered the document centroids with K-means, and it was able to capture many more nuanced but still recognizable pathways:
+I used word vectors to calculate a centroid for each document's gene/gene product tokens (normalized sum of the gene/gene product token word vectors). I clustered the document centroids with K-means, and it was able to capture many more nuanced but still recognizable pathways. Interestingly it also clustered out the junk documents that not abstracts but only author lists and instition locations, which I wasn't aware were in the corpus.
 ### Word2Vec Centroid tSNE
 ![Word2Vec Centroid tSNE](https://github.com/Beth526/metis_project_4/blob/main/w2v_cluster.jpg)
 
